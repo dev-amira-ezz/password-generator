@@ -30,24 +30,35 @@ h2 {
   color: #10b981;
 }
 
+.password-container {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 button,
 .password {
   border-radius: 5%;
 }
+
 button {
   background-color: #10b981;
   color: white;
   padding: 0.5rem;
   margin: 2rem 0;
-  display: block;
+  cursor: pointer;
 }
 
 .password {
-  width: 10rem;
+  width: 15rem;
   height: 2rem;
   background-color: #273549;
-  margin: 1rem 1rem 0 0;
+  margin: 0 1rem 0 0;
   color: #55f991;
-  display: inline-block;
   padding-left: 0.5rem;
+}
+
+.generate {
+  display: block;
+  margin: 1rem auto;
 }
