@@ -9,43 +9,45 @@
 body {
   width: 100%;
   height: 100vh;
-  color: #D5D4D8;
+  color: #d5d4d8;
   line-height: 2rem;
 }
 
 .container {
   overflow: hidden;
   height: auto;
-  background-color: #1F2937;
+  background-color: #1f2937;
   max-width: 40%;
   margin: 3rem auto;
   padding: 5rem;
 }
 
 h2 {
-   width: 50%;
+  width: 50%;
 }
 
 .highlight {
-   color: #10B981;
+  color: #10b981;
 }
 
-button, .password {
-   border-radius: 5%;
+button,
+.password {
+  border-radius: 5%;
 }
 button {
-   background-color: #10B981;
-   color: white;
-   padding: 0.5rem;
-   margin: 2rem 0;
+  background-color: #10b981;
+  color: white;
+  padding: 0.5rem;
+  margin: 2rem 0;
+  display: block;
 }
 
 .password {
-   width: 45%;
-   height: 2rem;
-   background-color: #273549;
-   margin: 1rem 1rem 0 0;
-   color: #55F991;
-   display: inline-block;
-   padding-left: 0.5rem;
+  width: 10rem;
+  height: 2rem;
+  background-color: #273549;
+  margin: 1rem 1rem 0 0;
+  color: #55f991;
+  display: inline-block;
+  padding-left: 0.5rem;
 }

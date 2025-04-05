@@ -9,13 +9,18 @@ let password1El = document.getElementById("password1-el");
 let password2El = document.getElementById("password2-el");
 let password1 = [];
 let password2 = [];
+let lengthEl = document.getElementById("length-el");
 
 function generatePassword() {
-    for(let i=0; i<15;i++) {
+    password1=[];
+    password2=[];
+    for(let i=0; i<lengthEl.value;i++) {
         password1.push(characters[Math.floor(Math.random() * characters.length)]);
         password2.push(characters[Math.floor(Math.random() * characters.length)]);
     }
-    password1El.textContent += password1.join("");
-    password2El.textContent += password2.join("");
+    password1El.textContent = password1.join("");
+    password2El.textContent = password2.join("");
+    
 }
+
 
