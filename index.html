@@ -12,9 +12,11 @@
       <p>Never use an insecure password again</p>
       <label for="length-el"
         >Choose password length:
-        <input id="length-el" type="number" value="15" min="3" max="50" />
+        <input id="length-el" class="choose-length" type="number" value="15" min="3" max="50" />
       </label>
-      <button class="generate" onclick="generatePassword()">Generate passwords</button>
+      <button class="generate" onclick="generatePassword()">
+        Generate passwords
+      </button>
       <hr />
       <div class="password-container">
         <div id="password1-el" class="password" onclick="copyPassword1()"></div>

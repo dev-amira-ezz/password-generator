@@ -62,3 +62,10 @@ button {
   display: block;
   margin: 1rem auto;
 }
+
+.choose-length {
+  background-color: #273549;
+  color:#55f991;
+  line-height: 1.5rem;
+  padding-left: 0.25rem;
+}
